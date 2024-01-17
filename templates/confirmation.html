@@ -31,31 +31,18 @@
 </nav>
 
 <div class="container-fluid p-5 bg-primary text-white text-center">
-  <h1>Contact</h1>
-  <p>Enter your info to receive messages from us.</p>
+  <h1>Signup confirmed!</h1>
+  <p>
+    <br>
+    Name: {{data.name}}
+    <br>
+    Email: {{data.email}}
+  </p>
+
+
 </div>
 
-<div class="container mt-3">
-  <h2>Input information here:</h2>
-  <form action="/confirmation">
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Name" name="name">
-    </div>
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Address" name="address">
-    </div>
-    <form>
-    <div class="input-group">
-      <span class="input-group-text">Phone number: +1</span>
-      <input type="text" class="form-control" placeholder="Phone Number" name="phone">
-    </div>
-    <div class="mb-3 mt-3">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-</div>
+
 
 
 </body>
